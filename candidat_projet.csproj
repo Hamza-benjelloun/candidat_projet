@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="form1 - Copy %282%29 - Copy %282%29.resx">
+      <DependentUpon>form1 - Copy (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="form1 - Copy %282%29 - Copy - Copy.resx">
+      <DependentUpon>form1 - Copy (2) - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="form1 - Copy %282%29 - Copy.resx">
+      <DependentUpon>form1 - Copy (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="form1 - Copy %282%29.resx">
+      <DependentUpon>Page2.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy - Copy %282%29 - Copy.resx">
+      <DependentUpon>Form1 - Copy - Copy (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy - Copy %282%29.resx">
+      <DependentUpon>Form1 - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy - Copy %283%29.resx">
+      <DependentUpon>Form1 - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy - Copy - Copy %282%29.resx">
+      <DependentUpon>Form1 - Copy - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy - Copy - Copy - Copy.resx">
+      <DependentUpon>Form1 - Copy - Copy - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy - Copy - Copy.resx">
+      <DependentUpon>Form1 - Copy - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy - Copy.resx">
+      <DependentUpon>Form1 - Copy.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copy.resx">
+      <DependentUpon>Page2.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
